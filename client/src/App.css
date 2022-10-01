@@ -1,0 +1,36 @@
+.appnavbar {
+	overflow: hidden;
+	background-color:black;
+	color:white;
+}
+.appnavbar a{
+	float:right;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 12px 15px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.dd{
+	float:right;
+	overflow:visible;
+}
+.dd .dbt{
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: black;
+	padding: 12px 15px;
+	background-color:inherit;
+	font-family:inherit;
+	margin:0;
+}
+.appnavbar a:hover, .dd:hover .dbt{
+	color: black;
+	background-color:white;
+}
+
+.dd:hover .dd-content{
+	display:block;
+}

@@ -1,0 +1,113 @@
+.dummy{
+	text-align: center;
+	font-size: 75px;
+}
+.bod{
+	font: 16px/1.2 "Roboto", sans-serif;
+	color: #333;
+}
+
+.leaderboard {
+	display:inline;
+	float:left;
+	width: 45%;
+	background: linear-gradient(to bottom, #3a404d, #181c26);
+}
+
+/* head */
+.leaderboard .hea {
+	padding: 20px 16px;
+	color: snow;
+	font-size: 20px;
+	text-align: center;
+}
+.leaderboard .hea h1 {
+	display: inline-block;
+	margin-left: 4px;
+}
+
+/* body */
+.leaderboard .bod {
+	color: snow;
+	font-size: 16px;
+}
+
+.leaderboard li {
+	padding: 16px;
+	display: flex;
+}
+.leaderboard li mark {
+	flex-grow: 1;
+	color: snow;
+	background-color: transparent;
+}
+.leaderboard li:before {
+	margin-right: 4px;
+}
+.leaderboard li:nth-child(5) {
+	background: #fa6855;
+}
+.leaderboard li:nth-child(4) {
+	background: #e0574f;
+}
+.leaderboard li:nth-child(3) {
+	background: #d7514d;
+}
+.leaderboard li:nth-child(2) {
+	background: #cd4b4b;
+}
+.leaderboard li:nth-child(1) {
+	background: #c24448;
+}
+
+
+/* body */
+.leaderboard2 .bod {
+	color: snow;
+	font-size: 16px;
+}
+.leaderboard2 li {
+	padding: 16px;
+	display: flex;
+}
+.leaderboard2 li mark {
+	flex-grow: 1;
+	color: snow;
+	background-color: transparent;
+}
+.leaderboard2 li:before {
+	margin-right: 4px;
+}
+.leaderboard2 li:nth-child(1) {
+	background: #12c742;
+}
+.leaderboard2 li:nth-child(2) {
+	background: #1ce151;
+}
+.leaderboard2 li:nth-child(3) {
+	background: #1ced54;
+}
+.leaderboard2 li:nth-child(4) {
+	background: #1ffb59;
+}
+.leaderboard2 li:nth-child(5) {
+	background: #c24448;
+}
+
+.leaderboard2 .hea {
+	padding: 20px 16px;
+	color: snow;
+	font-size: 20px;
+	text-align: center;
+}
+.leaderboard2 .hea h1 {
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.leaderboard2 {
+	display: block;
+	width: 45%;
+	 float: right; 
+	background: linear-gradient(to bottom, #3a404d, #181c26);
+}

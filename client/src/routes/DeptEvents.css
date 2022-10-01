@@ -1,0 +1,39 @@
+.depteventspage{
+    color:white;
+    background-color:lightseagreen;
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    width:1200px;
+}
+
+.deptevent1{
+    align-items: center;
+    align-content: center;
+}
+.button{
+    background-color:cornflowerblue; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.dbox{
+    box-sizing: border-box;
+    display:block;
+    border: 1px solid black;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color:floralwhite;
+    width:70%;
+
+    
+}
+
